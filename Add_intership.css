@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: url('imgs/dian10.jpg') center/cover no-repeat;
+    color: #000;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.logo img {
+    width: 160px;
+}
+
+.parametre2 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.parametre2 a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.container {
+    width: 650px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    margin-top: 80px;
+}
+
+form {
+    text-align: left;
+}
+
+label, select, input[type="date"], input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    color: #000;
+    text-align: center
+}
+
+select, input[type="date"] {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+input[type="submit"] {
+    padding: 12px;
+    font-size: 18px;
+    color: #fff;
+    background: #653332;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #4a2d2d;
+}
+
+/* Form group style */
+.form-group {
+    margin-bottom: 60px;
+    text-align: center; /* Adds space between form groups */
+}
+
+/* Title above input (icon + text) */
+.form-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.form-title i {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+/* Input and select alignment */
+select, input[type="date"] {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}

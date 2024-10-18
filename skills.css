@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('imgs/dian10.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.logo img {
+    width: 160px;
+    height: auto;
+}
+
+.parameters {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-right: 30px;
+    margin-left: auto; /* Keep this to push the icons to the right */
+    margin-right: 10px; /* Adjust this value to move icons a little to the left */
+}
+
+.parameters a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.parameters span {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.parameters i {
+    margin-right: 5px;
+}
+
+.container {
+    width: 850px; /* Increased width to accommodate more columns */
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-top: 120px; /* Space for the fixed header */
+}
+
+h1, h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 32px;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+    color: #333;
+    background: rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.table th {
+    background: #653332;
+    color: #fff;
+}
+
+.edit-icon, .delete-icon {
+    color: #653332;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.edit-icon:hover, .delete-icon:hover {
+    color: #4a2d2d;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #653332;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #4a2d2d;
+}
+
+.parameters a:hover {
+    color: #ddd;
+    transform: scale(1.1);
+}

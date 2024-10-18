@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('imgs/dian10.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+position: fixed;
+top: 0; /* Adjusted from -20px to 0 for proper alignment */
+left: 0;
+width: 100%;
+z-index: 1000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px; /* Adjusted padding for a cleaner look */
+
+}
+
+.logo {
+display: flex;
+align-items: center;
+padding-left: 30px; /* Reduced padding for better centering */
+}
+
+.logo img {
+width: 160px; /* Reduced size slightly for balance */
+height: auto;
+}
+
+.parameters {
+display: flex;
+gap: 20px; /* Reduced gap between icons for a tighter look */
+align-items: center;
+padding-right: 30px; /* Added padding-right to match logo's padding-left */
+}
+
+.parameters a {
+font-size: 20px;
+color: #fff;
+text-decoration: none;
+
+}
+
+
+
+.parameters span {
+color: #fff;
+font-size: 18px;
+margin-right: 10px;
+}
+
+.parameters i {
+margin-right: 5px; /* Added space between icon and text */
+}
+
+
+
+.container4 {
+    width: 500px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #000;
+    margin-bottom: 20px;
+    font-size: 29px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    color: #fff;
+    background: #653332;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #4a2d2d;
+}
+.parameters a:hover {
+    color: #ddd;
+    transform: scale(1.1);
+}

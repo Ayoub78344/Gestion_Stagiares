@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: url('imgs/dian10.jpg') center/cover no-repeat;
+    color: #000;
+    font-family: 'Segoe UI', sans-serif;
+}
+.container {
+    width: 650px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+
+
+form {
+    text-align: left;
+}
+label, select, input[type="text"], input[type="date"], input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    color: #000;
+}
+select, input[type="text"] {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    padding: 12px;
+    font-size: 18px;
+    color: #fff;
+    background: #653332;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background: #502929;
+}
+.color {
+    background: #653332;
+    height: 5px;
+    width: 33%;
+    float: left;
+}
+.parameters {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: auto;
+    margin-left: 20px; /* Keep this to push the icons to the right */
+    margin-right: 40px; /* Adjust this value to move icons a little to the left */
+
+}
+.parametre2 {
+position: fixed;
+top: 10px;
+left: 10px;
+right: 5px;
+display: flex;
+margin-top: 20px;
+
+
+align-items: center;
+z-index: 100;
+}
+
+.btn-primary {
+    background-color: #653332;
+}
+
+.btn-primary:hover {
+    background-color: #4a2d2d;
+}
+
+header {
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1000;
+display: flex;
+justify-content: space-between; /* Positions logo on the left and icons on the right */
+align-items: center;
+padding: 10px 40px;
+
+}
+
+.logo {
+display: flex;
+align-items: center;
+justify-content: flex-start; /* Ensures the logo stays on the left */
+}
+
+.logo img {
+width: 160px;
+height: auto;
+margin-left: 40px;
+}
+
+.parametre2 {
+display: flex;
+gap: 20px; /* Adjusts the spacing between icons */
+align-items: center;
+justify-content: flex-end; /* Ensures the icons align to the right */
+margin-left: auto; /* Pushes the icons to the far right */
+}
+
+.parametre2 a {
+font-size: 24px;
+color: #fff;
+text-decoration: none;
+transition: color 0.3s, transform 0.2s;
+}
+
+.parametre2 a:hover {
+color: #4a2d2d;
+transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Adjusts body positioning for header space */
+body {
+margin-top: 80px; /* Adds space for the fixed header */
+}
